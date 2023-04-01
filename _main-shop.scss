@@ -1,0 +1,60 @@
+.main-shop {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  z-index: -1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 80px);
+  background-color: beige;
+}
+
+.book {
+  width: 15rem;
+  height: 23rem;
+  //   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  background-color: rgb(228, 228, 184);
+  //   color: white;
+}
+
+.book__img {
+  background-image: url(https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588843906l/52861201._SY475_.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 70%;
+  //   height: 50vh;
+  height: 100%;
+}
+
+.book__author {
+  padding: 10px;
+}
+.book__name {
+  padding: 10px;
+}
+.book__btn-buy {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  //   border: none;
+  &:hover {
+    color: white;
+    background-color: black;
+  }
+}
