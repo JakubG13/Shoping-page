@@ -38,6 +38,7 @@
   }
   .logo__name {
     margin-left: 10px;
+    cursor: default;
   }
 }
 
@@ -55,6 +56,15 @@
   display: none;
   @media (min-width: 1200px) {
     display: flex;
+  }
+}
+
+.menu__item--computer {
+  cursor: pointer;
+  transition: 0.2s;
+  &:hover {
+    font-size: 3rem;
+    color: yellow;
   }
 }
 
